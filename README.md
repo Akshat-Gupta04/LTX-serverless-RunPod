@@ -156,3 +156,12 @@ Our configuration automatically maps the network volume folders:
 - **Checkpoints**: Store in `/runpod-volume/checkpoints/`. Reference in the API using only the filename (e.g., `"ltx-2.3-22b-dev-fp8.safetensors"`).
 - **Text Encoders**: Store in `/runpod-volume/text_encoders/`. Reference by filename (e.g., `"gemma_3_12B_it_fp4_mixed.safetensors"`).
 
+---
+
+## 🎬 Decoding & Downloading Generated Videos
+
+If you want to view or download the generated video from the raw response, you can copy the RunPod JSON response as-is and paste it into the [RunPod Video Player & Decoder](https://nsfw.funphantom.in/runpod-video). 
+
+This tool will automatically parse the JSON, decode the base64 video payload, render a playable preview, and provide a direct download link for the MP4 file.
+
+
