@@ -1,0 +1,23 @@
+{
+  "title": "LTX Serverless RunPod",
+  "description": "RunPod Serverless Worker for LTX 2.3 Image-to-Video and Text-to-Video generation using ComfyUI.",
+  "type": "serverless",
+  "category": "video",
+  "iconUrl": "https://example.com/icon.png",
+  "config": {
+    "runsOn": "GPU",
+    "containerDiskInGb": 60,
+    "presets": [],
+    "env": [
+      {
+        "key": "SERVER_ADDRESS",
+        "input": {
+          "name": "ComfyUI Server Address",
+          "type": "string",
+          "description": "The IP address or hostname of the local ComfyUI server instance.",
+          "default": "127.0.0.1"
+        }
+      }
+    ]
+  }
+}
