@@ -1,5 +1,7 @@
 # LTX 2.3 RunPod Serverless API
 
+[![Runpod](https://api.runpod.io/badge/Akshat-Gupta04/LTX-serverless-RunPod)](https://console.runpod.io/hub/Akshat-Gupta04/LTX-serverless-RunPod)
+
 This directory contains the files required to build and deploy a **RunPod Serverless Worker** for generating videos using the **LTX 2.3** unified model. It integrates with ComfyUI under the hood and exposes a clean, single-endpoint REST API for video generation.
 
 ---
