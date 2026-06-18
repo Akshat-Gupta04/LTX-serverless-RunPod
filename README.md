@@ -162,6 +162,6 @@ Our configuration automatically maps the network volume folders:
 
 If you want to view or download the generated video from the raw response, you can copy the RunPod JSON response as-is and paste it into the [RunPod Video Player & Decoder](https://nsfw.funphantom.in/runpod-video). 
 
-This tool will automatically parse the JSON, decode the base64 video payload, render a playable preview, and provide a direct download link for the MP4 file.
+This tool will automatically parse the JSON, decode the base64 video payload, render a playable preview, and provide a download button to directly download the MP4 file.
 
 
