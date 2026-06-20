@@ -15,28 +15,6 @@ This directory contains the files required to build and deploy a **RunPod Server
 - **High-speed base64 IO**: Send images and retrieve generated MP4 videos directly via Base64.
 - **Flexibility**: Configurable prompt, negative prompt, duration, resolution, frame rate, seed, and CFG.
 
----
-
-## 🛠️ Deploy to RunPod
-
-### 1. Build and Push the Docker Image
-Build the Docker image locally or via a cloud builder, and push it to your container registry (Docker Hub, GitHub Packages, etc.):
-
-```bash
-docker build -t yourregistry/ltx-2.3-serverless:latest .
-docker push yourregistry/ltx-2.3-serverless:latest
-```
-
-### 2. Configure RunPod Endpoint
-1. Go to the **RunPod Dashboard** and navigate to **Serverless -> Endpoints**.
-2. Click **New Endpoint** and specify:
-   - **Endpoint Name**: `ltx-2.3-generation`
-   - **Container Image**: `yourregistry/ltx-2.3-serverless:latest`
-   - **GPU Type**: We recommend GPUs with at least **24GB VRAM** (e.g., A10G, A30, A40, A100, RTX 4090/6000 Ada).
-   - **Active Limits**: Adjust according to your traffic.
-3. Save the endpoint and copy your **Endpoint ID** and **API Key**.
-
----
 
 ## 🔧 API Reference
 
