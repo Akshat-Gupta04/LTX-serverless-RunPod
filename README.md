@@ -1,4 +1,4 @@
-# LTX 2.3 RunPod Serverless API
+# LTX 2.3 RunPod Serverless
 
 [![Runpod](https://api.runpod.io/badge/Akshat-Gupta04/LTX-serverless-RunPod)](https://console.runpod.io/hub/Akshat-Gupta04/LTX-serverless-RunPod)
 
